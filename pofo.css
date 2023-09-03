@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600&family=Space+Mono&display=swap');
+
+.header{
+  background-color: rgb(164, 164, 164);
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Space Mono', monospace;
+
+}
+.con1 i{
+  padding:0 5px 0 15px;
+
+}
+.con2 i{
+    padding:0 5px 0 8px;
+}
+
+.navbar{
+  background-color: transparent;
+  box-shadow: 2px 3px 15px 2px ;
+  font-family: 'Space Mono', monospace;
+  text-align: center;
+}
+
+/* js style...... ..........*/
+.sticky{
+  background-color: rgb(145, 145, 145);
+  transition: 1s;
+  height: 80px;
+}
+
+.nav-link{
+  color: azure;
+}
+.step2{
+    background-image: linear-gradient(rgba(101, 101, 101, 0.5),rgba(47, 45, 45, 0.2)),url(https://cdn.wallpapersafari.com/63/39/jsnQSy.jpg);
+    height: 650px;
+    background-size: cover;
+    background-position:right;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: rgb(222, 222, 222);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.text{
+  padding-left: 100px;
+  text-shadow: 10px 10px 10px  rgb(58, 58, 58);
+}
+.icon a{
+  padding: 10px;
+  text-align: center;
+  text-shadow: 4px 7px 5px rgb(39, 39, 39);
+  
+}
+.down{
+  position: relative;
+  bottom: 180px;
+}
+.about{
+      padding: 100px;
+      padding-top: 100px;
+      background-image: url(https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?w=740&t=st=1693730521~exp=1693731121~hmac=aed007ab51b5634a6505e63d2212a1b664a18d9bdbd51a0ca33d545bec06df04);
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-family: 'Space Mono', monospace;   
+}
+.about h1{
+        text-align: center;
+        color: rgb(89, 89, 89);
+      font-family: 'Space Mono', monospace;
+}
+.about2{
+    background-color: rgb(242, 242, 242);
+    border-radius: 10px;
+    font-family: 'Rubik';
+    text-align: justify;
+}
+.Eduction{
+  padding-top: 40px;
+  text-align: center;
+}
+.card{
+       box-shadow: 3px 3px 8px 1px rgb(216, 216, 216);
+      text-align: center;
+}
+.p-card {
+  box-shadow: 3px 3px 10px 1px rgb(0, 0, 0);
+  text-align: center;
+}
+
+.project{
+  background-image:url(https://i.pinimg.com/originals/eb/16/29/eb1629d5c15fe9f3738ecbd22dd193e5.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+/* linear-gradient(rgba(249, 249, 249, 0.5),rgba(23, 30, 248, 0.4)) */
+.project p{
+  text-align: start;
+}
+.skil img{
+    width: 80px;
+    margin: 20px 20px 5px 20px;
+    border-radius: 10px;
+}
+.skill-container{
+  text-align: center;
+  padding: 100px;
+  margin: 50px;
+  
+}
+.skil{
+  padding: 2px;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px 5px rgb(214, 214, 214);
+}
+.footer1 li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.footer1{
+  background-attachment: fixed;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  box-shadow: 10px 20px 30px 30px rgb(49, 49, 49);
+
+}
+.footer1 li{
+  list-style: square;
+  padding: 10px;
+}
+.uparrow{
+position:absolute;
+}
+footer div a{
+  text-decoration: none;
+}
+
+
