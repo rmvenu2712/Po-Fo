@@ -25,7 +25,7 @@
 
 /* js style...... ..........*/
 .sticky{
-  background-color: rgb(145, 145, 145);
+  background-color: rgba(145, 145, 145, 0.894);
   transition: 1s;
   height: 80px;
 }
@@ -33,15 +33,19 @@
 .nav-link{
   color: azure;
 }
+.nav-item{
+  font-size: 20px;
+}
 .step2{
-    background-image: linear-gradient(rgba(101, 101, 101, 0.5),rgba(47, 45, 45, 0.2)),url(https://cdn.wallpapersafari.com/63/39/jsnQSy.jpg);
-    height: 650px;
+    background-image: linear-gradient(rgba(3, 3, 3, 0.299),rgba(125, 125, 125, 0.185)),url(https://cdn.wallpapersafari.com/63/39/jsnQSy.jpg);
+    height:100vh;
     background-size: cover;
     background-position:right;
+    background-attachment: fixed;
     display: flex;
     justify-content: start;
     align-items: center;
-    color: rgb(222, 222, 222);
+    color: rgba(5, 5, 5, 0.708);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
@@ -62,7 +66,7 @@
 .about{
       padding: 100px;
       padding-top: 100px;
-      background-image: url(https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?w=740&t=st=1693730521~exp=1693731121~hmac=aed007ab51b5634a6505e63d2212a1b664a18d9bdbd51a0ca33d545bec06df04);
+      background-image: url(https://i.pinimg.com/originals/8c/d6/32/8cd632d1be81bb70020f2e54cacd02fd.gif);
       background-attachment: fixed;
       background-repeat: no-repeat;
       background-size: cover;
@@ -74,7 +78,7 @@
       font-family: 'Space Mono', monospace;
 }
 .about2{
-    background-color: rgb(242, 242, 242);
+    background-color: rgba(255, 255, 255, 0.668);
     border-radius: 10px;
     font-family: 'Rubik';
     text-align: justify;
@@ -90,6 +94,7 @@
 .p-card {
   box-shadow: 3px 3px 10px 1px rgb(0, 0, 0);
   text-align: center;
+  height: 230px;
 }
 
 .project{
@@ -103,11 +108,11 @@
 .project p{
   text-align: start;
 }
-.skil img{
+/* .skil img{
     width: 80px;
     margin: 20px 20px 5px 20px;
     border-radius: 10px;
-}
+} */
 .skill-container{
   text-align: center;
   padding: 100px;
@@ -115,8 +120,9 @@
   
 }
 .skil{
-  padding: 2px;
+  width: 100px;
   margin: 10px;
+  padding: 20px;
   border-radius: 20px;
   box-shadow: 5px 5px 10px 5px rgb(214, 214, 214);
 }
