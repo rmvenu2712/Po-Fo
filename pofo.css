@@ -2,7 +2,7 @@
 
 .header{
   background-color: rgb(164, 164, 164);
-  color: aliceblue;
+  color: rgb(255, 255, 255);
   display: flex;
   justify-content: space-between;
   font-family: 'Space Mono', monospace;
@@ -30,14 +30,13 @@
   height: 80px;
 }
 
-.nav-link{
-  color: azure;
-}
+
 .nav-item{
   font-size: 20px;
+ 
 }
 .step2{
-    background-image: linear-gradient(rgba(3, 3, 3, 0.299),rgba(125, 125, 125, 0.185)),url(https://cdn.wallpapersafari.com/63/39/jsnQSy.jpg);
+    background-image: linear-gradient(rgba(37, 37, 37, 0.44),rgba(20, 20, 20, 0.375)),url(https://cdn.wallpapersafari.com/63/39/jsnQSy.jpg);
     height:100vh;
     background-size: cover;
     background-position:right;
@@ -45,7 +44,7 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    color: rgba(5, 5, 5, 0.708);
+    color: rgba(255, 255, 255, 0.841);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
