@@ -1,6 +1,6 @@
 
 window.setInterval(()=>{
-    window.document.title="Venu's PortFolio"
+    window.document.title="Venu's Portfolio"
 
 },1000);
 window.addEventListener('scroll',()=>{

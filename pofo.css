@@ -99,23 +99,17 @@
   text-align: center;
   height: 230px;
 }
-
 .project{
-  background-image:url(https://i.pinimg.com/originals/eb/16/29/eb1629d5c15fe9f3738ecbd22dd193e5.jpg);
+  background-image:url(https://images.pexels.com/photos/9469520/pexels-photo-9469520.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
 
 }
-/* linear-gradient(rgba(249, 249, 249, 0.5),rgba(23, 30, 248, 0.4)) */
 .project p{
   text-align: start;
 }
-/* .skil img{
-    width: 80px;
-    margin: 20px 20px 5px 20px;
-    border-radius: 10px;
-} */
+
 .skill-container{
   text-align: center;
   padding: 100px;
